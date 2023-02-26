@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e404d5782ee95d4fb628b70a0c2f220, type: 3}
+  m_Name: Swordsman
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpSpeed: 100
+  groundCheckDistance: 0.5
+  playerSearchDistance: 18.17
+  attackCheckRadius: 1.4
+  alertTime: 4
+  confusionTime: 1.5
+  attackCooldownTime: 1
+  chaseSpeedMultiplier: 0.2
+  minAgroRange: 3.5
+  maxAgroRange: 25.89
+  damageAmount: 10
+  criticalDamageMultiplier: 0.25
+  criticalDamageChance: 0.1
+  knockbackDirection: {x: 5, y: 1}
